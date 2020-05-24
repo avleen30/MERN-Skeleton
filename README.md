@@ -7,9 +7,9 @@
 
 ####  How to run this code
 1. Clone this repository
-2. Create a root file ``` .env ```
-      -``` MONGODB_URI=enter-url-here ```
-      -   [Get url]( https://codeforgeek.com/mongodb-atlas-node-js/) 
+2. Create a root file called  ``` .env ```. 
+      -  To connect your application to MongoDB, enter url connection in the file:  ``` MONGODB_URI=enter-url-here ```
+      -   [MongoDB connect to a cluster]( https://docs.atlas.mongodb.com/connect-to-cluster/) 
 3. Open command line in the cloned folder, 
    - To install dependencies, run ```  npm install  ```
    - To run the application for development, run ```  npm run development  ```
